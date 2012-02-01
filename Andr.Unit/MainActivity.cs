@@ -15,7 +15,7 @@ namespace Andr.Unit {
 			// tests can be inside the main assembly
 			Add (Assembly.GetExecutingAssembly ());
 			// or in any reference assemblies			
-			Add (typeof (m4a.tests.RunnerTest).Assembly);
+			Add (typeof (TimeInc.SwimSuit2012.Services.Test.SwimsuitIssueManagerTest).Assembly);
 			// or in any assembly that you load (since JIT is available)
 			
 #if false
